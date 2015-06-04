@@ -37,4 +37,4 @@ EXPOSE 9000
 
 # This Runs with docker run
 
-CMD $PROJECT_WORKPLACE/app/stage/bin/docker-play -Dhttp.port=9000 -Dlogger.file=$OPTIMUS_WORKPLACE/build/logger.xml
+CMD $PROJECT_WORKPLACE/app/stage/bin/docker-play -Dhttp.port=9000 -Dlogger.file=$PROJECT_WORKPLACE/build/logger.xml
